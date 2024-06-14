@@ -8,8 +8,7 @@ export default function HeroSection() {
         "Front End Developer",
         "Back End Developer",
         "Marketing Consultant",
-        "Graphic Designer",
-        "IT Professional",
+        
     ];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
@@ -18,7 +17,7 @@ export default function HeroSection() {
             setCurrentRoleIndex(
                 (prevIndex) => (prevIndex + 1) % dynamicRoles.length
             );
-        }, 2000);
+        }, 1000);
 
         return () => clearInterval(interval);
     }, [dynamicRoles.length]);
