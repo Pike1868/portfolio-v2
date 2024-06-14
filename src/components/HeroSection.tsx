@@ -24,7 +24,7 @@ export default function HeroSection() {
     }, [dynamicRoles.length]);
 
     return (
-        <section className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8 flex flex-col md:flex-row items-center">
+        <main className=" p-6 py-16 rounded-lg shadow mb-8 flex flex-col md:flex-row items-center">
             <div className="flex-1 md:mr-6">
                 <h2 className="text-4xl font-bold mb-4 text-start text-gray-900 dark:text-white">
                     Hi, I'm Luis
@@ -62,6 +62,6 @@ export default function HeroSection() {
                     />
                 </div>
             </div>
-        </section>
+        </main>
     );
 }

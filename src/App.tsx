@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import SkillsSection from "./components/SkillsSection";
 import "./index.css";
 
 function App() {
@@ -9,9 +10,8 @@ function App() {
             <div className="container mx-auto px-4">
                 <Header />
                 {/* Main content */}
-                <main className="mt-8">
-                    <HeroSection />
-                </main>
+                <HeroSection />
+                <SkillsSection />
                 <footer className="bg-gray-800 text-white p-6 mt-8">
                     {/* Footer content */}
                 </footer>
