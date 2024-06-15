@@ -8,7 +8,6 @@ export default function HeroSection() {
         "Front End Developer",
         "Back End Developer",
         "Marketing Consultant",
-        
     ];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
@@ -55,7 +54,7 @@ export default function HeroSection() {
             <div className="flex-1 relative mt-6 md:mt-0">
                 <div className="relative">
                     <img
-                        src="/src/assets/luis-img.png"
+                        src="/public/luis-img.png"
                         alt="Luis Mendoza"
                         className="relative rounded-full mx-auto z-10 mr-16"
                     />
