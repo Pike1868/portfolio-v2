@@ -16,15 +16,15 @@ interface ProjectCardProps {
     repoUrl: string;
 }
 
-const ProjectCard = ({
+export default function ProjectCard({
     title,
     description,
     image,
     liveUrl,
     repoUrl,
-}: ProjectCardProps) => {
+}: ProjectCardProps) {
     return (
-        <Card className="max-w-sm shadow-lg flex flex-col">
+        <Card className="max-w-sm shadow-lg flex flex-col bg-white dark:bg-gray-800 ">
             <CardHeader>
                 <img
                     src={image}
@@ -36,7 +36,7 @@ const ProjectCard = ({
                 <CardTitle className="text-xl font-semibold mb-2">
                     {title}
                 </CardTitle>
-                <CardDescription className="text-gray-700">
+                <CardDescription className="text-gray-800 dark:text-gray-300">
                     {description}
                 </CardDescription>
             </CardContent>
@@ -54,6 +54,4 @@ const ProjectCard = ({
             </CardFooter>
         </Card>
     );
-};
-
-export default ProjectCard;
+}

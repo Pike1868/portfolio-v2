@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 
-const ProjectSection = () => {
+export default function ProjectSection() {
     const projects = [
         {
             title: "Social Calendar",
@@ -37,11 +37,11 @@ const ProjectSection = () => {
     ];
 
     return (
-        <section className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8">
+        <section className=" p-6 py-16 rounded-lg shadow mb-8">
             <h2 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white text-center">
                 Projects
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8  justify-items-center mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8  justify-items-center mx-auto ">
                 {projects.map((project, index) => (
                     <ProjectCard
                         key={index}
@@ -55,6 +55,4 @@ const ProjectSection = () => {
             </div>
         </section>
     );
-};
-
-export default ProjectSection;
+}
