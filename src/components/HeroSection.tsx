@@ -54,7 +54,7 @@ export default function HeroSection() {
             <div className="flex-1 relative mt-6 md:mt-0">
                 <div className="relative">
                     <img
-                        src="/public/luis-img.png"
+                        src="/luis-img.png"
                         alt="Luis Mendoza"
                         className="relative rounded-full mx-auto z-10 mr-16"
                     />
