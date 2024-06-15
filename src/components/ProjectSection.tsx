@@ -37,7 +37,7 @@ export default function ProjectSection() {
     ];
 
     return (
-        <section className=" p-6 py-16 rounded-lg shadow mb-8">
+        <section className=" p-6 py-16 border-b-2 mb-8" id="projects">
             <h2 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white text-center">
                 Projects
             </h2>

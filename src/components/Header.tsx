@@ -21,7 +21,7 @@ export default function Header() {
         isDarkMode
             ? document.documentElement.classList.add("dark")
             : document.documentElement.classList.remove("dark");
-    });
+    }, [isDarkMode]);
 
     return (
         <header className="py-2 flex justify-between items-center">
@@ -45,9 +45,31 @@ export default function Header() {
             </div>
             <nav className="flex items-center">
                 <ul className="hidden sm:flex list-none gap-x-6">
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li>
+                        <a href="#about" className="hover:underline">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer" className="hover:underline">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" className="hover:underline">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" className="hover:underline">
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" className="hover:underline">
+                            Testimonials
+                        </a>
+                    </li>
                 </ul>
                 <div className="sm:hidden">
                     <DropdownMenu>
@@ -59,9 +81,21 @@ export default function Header() {
                         </DropdownMenuTrigger>
                         {isOpen && (
                             <DropdownMenuContent>
-                                <DropdownMenuItem>Projects</DropdownMenuItem>
-                                <DropdownMenuItem>Skills</DropdownMenuItem>
-                                <DropdownMenuItem>Contact</DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <a href="#about">About</a>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <a href="#footer">Contact</a>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <a href="#projects">Projects</a>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <a href="#skills">Skills</a>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <a href="#testimonials">Testimonials</a>
+                                </DropdownMenuItem>
                             </DropdownMenuContent>
                         )}
                     </DropdownMenu>

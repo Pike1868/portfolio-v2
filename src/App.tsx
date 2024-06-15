@@ -1,4 +1,7 @@
 import "./App.css";
+import AboutSection from "./components/AboutSection";
+import BackToTop from "./components/BackToTop";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProjectSection from "./components/ProjectSection";
@@ -14,11 +17,11 @@ function App() {
                 {/* Main content */}
                 <HeroSection />
                 <SkillsSection />
+                <AboutSection />
                 <ProjectSection />
                 <TestimonialSection />
-                <footer className="bg-gray-800 text-white p-6 mt-8">
-                    {/* Footer content */}
-                </footer>
+                <BackToTop />
+                <Footer />
             </div>
         </div>
     );

@@ -11,7 +11,10 @@ export default function TestimonialSection() {
         },
     ];
     return (
-        <section className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8">
+        <section
+            className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8"
+            id="testimonials"
+        >
             <h2 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white text-center">
                 Testimonials
             </h2>

@@ -16,7 +16,7 @@ import {
 
 export default function SkillsSection() {
     return (
-        <section className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8">
+        <section className="bg-white dark:bg-gray-800 p-6 py-16 rounded-lg shadow mb-8" id="skills">
             <h2 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white text-center">
                 Skills
             </h2>
