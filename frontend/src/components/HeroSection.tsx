@@ -16,7 +16,7 @@ export default function HeroSection() {
             setCurrentRoleIndex(
                 (prevIndex) => (prevIndex + 1) % dynamicRoles.length
             );
-        }, 1000);
+        }, 800);
 
         return () => clearInterval(interval);
     }, [dynamicRoles.length]);

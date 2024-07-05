@@ -23,7 +23,7 @@ export default function ProjectSection() {
             description:
                 "React.js Single-Page Application (SPA) simulating a job application portal. Users can browse jobs, apply for positions, and manage profiles. Built with React.js, Node.js, PostgreSQL, JWT.",
             image: "/jobly-app-screenshot.png",
-            liveUrl: "https://lm-jobly-fe.onrender.com/signin",
+            liveUrl: "https://lm-jobly-fe.onrender.com/",
             repoUrl: "https://github.com/Pike1868/react-jobly",
         },
         {

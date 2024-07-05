@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutSection from "./components/AboutSection";
 import BackToTop from "./components/BackToTop";
+import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -20,6 +21,7 @@ function App() {
                 <AboutSection />
                 <ProjectSection />
                 <TestimonialSection />
+                <ContactForm />
                 <BackToTop />
                 <Footer />
             </div>
