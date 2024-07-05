@@ -21,7 +21,7 @@ function App() {
                 <AboutSection />
                 <ProjectSection />
                 <TestimonialSection />
-                <ContactForm />
+                {/* <ContactForm /> */}
                 <BackToTop />
                 <Footer />
             </div>
