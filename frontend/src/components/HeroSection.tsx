@@ -7,7 +7,6 @@ export default function HeroSection() {
         "Web Developer",
         "Front End Developer",
         "Back End Developer",
-        "Marketing Consultant",
     ];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
