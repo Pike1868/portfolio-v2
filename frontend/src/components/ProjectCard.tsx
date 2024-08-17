@@ -46,7 +46,7 @@ export default function ProjectCard({
                         Live
                     </a>
                 </Button>
-                <Button asChild>
+                <Button asChild variant="outline" className="hover:opacity-60">
                     <a href={repoUrl} target="_blank" rel="noopener noreferrer">
                         GitHub
                     </a>
