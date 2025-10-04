@@ -11,12 +11,12 @@ export default function ProjectSection() {
             repoUrl: "https://github.com/Pike1868/social-calendar-app",
         },
         {
-            title: "Syntax Threads Store",
+            title: "SyntaxThreads Storefront",
             description:
-                "Syntax threads is a project built with Vite, React, TypeScript, Tailwind, and Shadcn UI. I built this project with a tutorial by John Smilga to learn typescript, and added my own branding. I have future plans of integrating with the printify api to bring in my own products as well.",
-            image: "/syntax-threads-ecommerce-store-screenshot.png",
-            liveUrl: "https://illustrious-wisp-b7539c.netlify.app/",
-            repoUrl: "https://github.com/Pike1868/ts_ecommerce_store_project",
+                "SyntaxThreads.com is the production storefront for my developer apparel brand. Built with Vite, React, TypeScript, Tailwind, and Redux Toolkit, it hydrates the Etsy catalog from structured JSON, includes collection filters and auto-rotating galleries, and routes shoppers to Etsy checkout with trust-building merch detail pages.",
+            image: "/syntaxthreads-main-page-pic.png",
+            liveUrl: "https://www.syntaxthreads.com/",
+            repoUrl: "https://github.com/Pike1868/syntaxthreadsco",
         },
         {
             title: "Jobly",

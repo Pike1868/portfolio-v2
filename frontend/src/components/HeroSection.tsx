@@ -3,10 +3,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function HeroSection() {
     const dynamicRoles = [
+        "Software Support Engineer",
+        "Systems Administrator",
+        "Network Engineer",
+        "IT Operations Engineer",
+        "Systems Engineer",
         "Software Engineer",
-        "Web Developer",
-        "Front End Developer",
-        "Back End Developer",
+        "Full-Stack Developer",
     ];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
@@ -30,10 +33,7 @@ export default function HeroSection() {
                     {dynamicRoles[currentRoleIndex]}
                 </h3>
                 <p className="text-lg my-8 text-start text-gray-700 dark:text-gray-300">
-                    I'm a software engineer specializing in TypeScript,
-                    React/React Native, Node.js, and SQL. I've worked
-                    professionally and freelanced in IT, web development,
-                    marketing, and insurance.
+                    I'm an IT professional focused on server administration, database support, and cloud infrastructure. I keep Windows Server and SQL Server environments running efficiently, monitor Azure resources for performance, and build software solutions in TypeScript and React when development improves operations, automation, or system reliability.
                 </p>
                 <div className="flex space-x-4">
                     <a
